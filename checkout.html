@@ -8,16 +8,121 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/120bec9352.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
-      <a href="index.html" class="logo">Rainy days</a>
-      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu" />
-    </header>
+    <div id="blur-div">
+      <header>
+        <a href="index.html" class="logo">
+          <img src="./logo/RainyDays_Logo.png" alt="logo" />
+        </a>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+
+        <nav>
+          <ul class="ul_element">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="womanjacket.html">Jackets for Women</a>
+            </li>
+
+            <li>
+              <a href="jacket-list.html">Jackets for Men</a>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+
+            <li>
+              <a href="about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container-checkout" id="container-checkout">
+        <div class="container-cart">
+          <h1 id="text-shopping">Your shopping cart</h1>
+          <div class="container-img-sum">
+            <img src="./images/greenJacket.jpg" alt="" />
+            <div class="container-sum">
+              <h1 id="green-jacket-h1">Green jacket</h1>
+              <div>
+                <h1>200 kr</h1>
+                <h5>inkl mva.</h5>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+          <div class="container-total">
+            <h1>Total: 200kr</h1>
+            <h5>inkl mva</h5>
+          </div>
+        </div>
+
+        <div class="container-info">
+          <h1>Payment and shipping</h1>
+          <div class="container-two-inputs">
+            <div class="container-inputs">
+              <label for="name">Name</label> <br />
+              <input name="name" id="name" />
+            </div>
+            <div class="container-inputs">
+              <label for="name">Postal code</label> <br />
+              <input name="name" id="name" />
+            </div>
+          </div>
+          <div class="container-inputs container-inputs-large">
+            <label for="name">Adress</label> <br />
+            <input name="name" id="name" />
+          </div>
+          <h1>Credit card</h1>
+          <div class="container-two-inputs">
+            <div class="container-inputs">
+              <label for="name">First name</label> <br />
+              <input name="name" id="name" />
+            </div>
+            <div class="container-inputs">
+              <label for="name">Last name</label> <br />
+              <input name="name" id="name" />
+            </div>
+          </div>
+          <div class="container-two-inputs">
+            <div class="container-inputs">
+              <label for="name">Credit card number</label> <br />
+              <input name="name" id="name" />
+            </div>
+            <div class="container-inputs">
+              <label for="name">Security code</label> <br />
+              <input name="name" id="name" />
+            </div>
+          </div>
+          <div class="container-inputs">
+            <label for="name">Expiration date</label> <br />
+            <input name="name" id="name" />
+          </div>
+
+          <button id="button-submit" class="button">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="submit-card" id="submit-card">
+      <h1>Success!</h1>
+      <h2>Your order is complete</h2>
+      <a class="button-continue" href="./index.html">
+        <img src="./images/home.png" alt="" />
+      </a>
+    </div>
   </body>
+  <script src="./js/index.js"></script>
 </html>

@@ -1,0 +1,204 @@
+.container-checkout {
+  height: 100vh;
+  display: flex;
+}
+
+.container-cart {
+  padding-left: 8vw;
+  width: 42vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+}
+
+.container-info {
+  width: 50vw;
+}
+
+.container-cart hr {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 0px;
+  color: rgba(0, 0, 0, 0.3);
+  border-width: 0.5px;
+}
+
+.container-cart h1 {
+  margin: 0px;
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+}
+
+.container-cart h5 {
+  margin-top: 0px;
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+  margin: 0px;
+}
+
+.container-img-sum {
+  margin-top: 40px;
+  display: flex;
+}
+
+.container-sum {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 10px;
+}
+
+.container-sum div {
+  display: flex;
+}
+
+.container-sum h1 {
+  margin: 0px;
+}
+
+.container-sum h1 {
+  margin: 0px;
+  color: #056466;
+  font-weight: 400;
+}
+
+.container-sum div h1 {
+  margin: 0px;
+  font-weight: 300;
+  color: black;
+  width: auto;
+}
+
+.container-sum h5 {
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: 400;
+  font-family: "OpenSans-Regular";
+}
+
+.container-img-sum img {
+  width: 75px;
+  height: 75px;
+}
+
+#green-jacket-h1 {
+  font-family: "rosewood", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-total {
+  display: flex;
+}
+
+.container-total h5 {
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+#text-shopping {
+  font-family: "rosewood", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-info h1:first-of-type {
+  margin-top: 200px;
+}
+
+.container-info h1 {
+  font-family: "rosewood", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.container-two-inputs {
+  display: flex;
+}
+
+.container-inputs {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.container-inputs input {
+  border: solid 1px red;
+  border-radius: 8px;
+  padding: 8px 20px;
+  width: 12.4vw;
+}
+
+.container-inputs-large input {
+  width: 30vw;
+}
+
+.container-inputs label {
+  margin-left: 5px;
+  font-family: "OpenSans-Regular";
+  font-size: 12px;
+}
+
+.button {
+  text-decoration: none;
+  font-family: "rosewood", Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  display: block;
+  margin-top: 40px;
+  background-color: #409681;
+  font-size: 1.5em;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  line-height: 50px;
+  transition: 0.5s;
+}
+
+.submit-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 40px 90px;
+  border-radius: 40px;
+  z-index: 200000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+}
+
+.submit-card button {
+  margin-top: 10px;
+}
+
+.submit-card h1 {
+  font-family: "rosewood", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.submit-card h2 {
+  font-family: "rosewood", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #cc952c;
+}
+
+.submit-card img {
+  width: 55px;
+}
+
+.button-continue {
+  text-align: center;
+  margin-top: 15px;
+  color: blue;
+}
+
+.submit-card a {
+  margin-top: 25px;
+}

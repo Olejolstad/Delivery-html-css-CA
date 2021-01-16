@@ -1,0 +1,24 @@
+@font-face {
+  src: url("../fonts/RosewoodStd-Fill.otf") format("truetype");
+  font-family: rosewood;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+p {
+  font-family: "OpenSans-regular", Verdana, Tahoma, Sans-serif;
+}
+
+h1 {
+  font-family: "rosewood", Verdana, Tahoma, Sans-serif;
+}
