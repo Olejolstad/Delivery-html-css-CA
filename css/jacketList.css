@@ -5,7 +5,7 @@
 
 .container-jackets img {
   width: 50vw;
-  height: 100vh;
+  height: 100%;
   object-fit: fill;
 }
 

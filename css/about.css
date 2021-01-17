@@ -1,0 +1,28 @@
+.container-jackets {
+  height: auto;
+  display: flex;
+}
+
+.container-jackets img {
+  margin-top: 80px;
+  width: 50vw;
+  height: 80vh;
+  object-fit: fill;
+  border-radius: 50%;
+}
+
+.container-four-jackets {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-four-jackets h1 {
+  font-size: 2.5em;
+}
+
+.container-four-jackets p {
+  max-width: 250px;
+}

@@ -1,0 +1,50 @@
+.container-contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.logo-button {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.logo-button img {
+  max-width: 450px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.container-contact h1 {
+  color: #cc952c;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.container-contact p {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container-contact h2 {
+  margin: auto;
+  color: #056466;
+  font-family: rosewood;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.home-button {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.home-button img {
+  max-width: 50px;
+}
